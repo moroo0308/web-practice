@@ -1,0 +1,63 @@
+.main-center{
+	width: 960px;
+	margin :0 auto;
+}
+#about{
+	background-image: url(../img/aboutback.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% auto;
+	background-attachment: fixed;
+}
+#about .profile-image{
+	max-width: 40%;
+	height: auto;
+	float: right;
+}
+#about #wrap{
+	background-color: #fff;
+	margin-top: 220px;
+	padding:35px 0;
+}
+#about .content{
+	width: 960px;
+	margin: 0 auto;
+}
+#about h1{
+	font-family: 'Bitter', serif;
+	font-size: 36px;
+	border-bottom:1px solid #cccccc;
+}
+#about h2{
+	font-family: 'Bitter', serif;
+	font-size: 24px;
+}
+#about .icon:before{/*要素の前につける*/
+	content:"";/*contentプロパティは:beforeや:afterとセットなので、必ず記述する。*/
+	border-left:7px solid #9cb4a4;
+	padding-right: 10px;
+}
+#about .profile-txt{
+	width: 540px;
+	float: left;
+}
+#about .profile-txt span{
+	font-weight: bold;
+}
+#about section{
+	margin-bottom: 35px;
+}
+#about .career th{
+	width: 240px;
+	background-color: #f0f0f0;
+	padding: 12px 0;
+	border:1px solid #cccccc;
+}
+#about .career td{
+	width: 680px;
+	padding: 12px 0 12px 40px;
+	border: 1px solid #cccccc;
+}
+#about footer{
+	background-color: #767671;
+}

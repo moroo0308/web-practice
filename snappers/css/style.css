@@ -1,0 +1,139 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:#cccccc;
+	color:#333333;
+	font-size:15px;
+	line-height: 2;
+}
+p,h1,h2,h3,h4,h5,h6{
+	margin-top:0;
+}
+#index img{
+	vertical-align: bottom;/**/
+	height: 100px;
+}
+a img:hover{
+	opacity: 0.8;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+a{
+	color:#3583aa;
+	text-decoration:none;
+}
+.clearfix:after{
+	content:"";/*空白の要素*/
+	display:block;/*擬似要素:afterで生成されるボックスはインライン要素のため、ブロックレベル要素として扱うため。*/
+	clear: both;/*杭の役割*/
+}
+table{
+	border-spacing: 0;/*隣り合ったセルのボーダーとボーダーの間隔を指定するプロパティ*/
+	border-collapse: collapse;/*隣り合ったボーダーの線を重ねてあげるプロパティ*/
+}
+#index{
+	background-image: url(../img/indexback.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+a:visited{
+	color:#788d98;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+/*header*/
+header{
+	width: 960px;/*この960pxとはwebサイトの横幅の一つの基準　小さい方に合わせる考え方はwebサイトをデザインする上で重要*/
+	height: 100px;
+	margin:0 auto;
+}
+.logo{
+	float: left;
+	margin-top:30px;
+	font-size: 50px;
+	font-family: 'Bitter', serif;
+}
+.logo a{
+	color:#ffffff;
+}
+.logo a:hover{
+	text-decoration: none;
+	/*color:#cecece;*/
+}
+.global-nav{
+	float:right;
+	margin-top:60px;
+}
+.global-nav li{
+	float: left;
+	margin:0 20px;
+	font-size:20px;
+	list-style: none;
+	font-family: 'Bitter', serif;
+}
+.global-nav li a{
+	color:#ffffff;
+}
+.global-nav li a:hover{
+	border-bottom:2px solid #ffffff;
+	text-decoration:none;
+}
+/*header fin*/
+/*wrap*/
+#wrap{
+	clear: both;
+}
+#index .content{
+	width: 960px;
+	margin:150px auto;
+}
+#index h1{
+	font-size: 100px;
+	font-family: 'Bitter', serif;
+	color:#ffffff;
+	line-height: 1;
+	margin-bottom: 50px;
+}
+#index p{
+	font-size: 16px;
+	color: #ffffff;
+}
+#index .btn a{
+	background-color: #009cd3;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Bitter', serif;
+	width: 185px;
+	display: block; /* a,img,spanはインライン要素なので高さや幅は指定できないため、block形式にしてあげる */
+	text-align: center;
+	line-height:50px;
+	margin-top: 20px;
+	border-radius: 5px;
+	border :3px solid #009cd3;
+}
+#index .btn a:hover{
+	text-decoration: none;
+	background-color: #ffffff;
+	color: #009cd3;
+}
+/*wrap fin*/
+/*foonter*/
+footer{
+	text-align: center;
+	color:#ffffff;
+	padding:20px 0;
+	font-size:12px;
+}
+#index footer{
+	width: 960px;
+	margin: 150px auto 0 auto;
+	text-align: left;
+}
+
+/*foonter fin*/

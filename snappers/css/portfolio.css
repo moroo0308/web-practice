@@ -1,0 +1,43 @@
+#portfolio{
+	background-image: url(../img/bg-portfolio.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+#portfolio #wrap{
+	background-color: #fff;
+    margin-top: 220px;
+    padding: 35px 0;
+}
+#portfolio .content{
+	width: 960px;
+	margin: 0 auto;
+}
+#portfolio .main{
+	width: 700px;
+	margin :0 10px;
+	float: left;
+}
+#portfolio h1{
+	font-family: 'Bitter', serif;
+	font-size: 36px;
+	border-bottom:1px solid #cccccc;
+}
+#portfolio .sidebar{
+	width: 200px;
+	float: right;
+	margin :0 10px 0 30px;
+	font-family: 'Bitter', serif;
+}
+#portfolio h2{
+	margin-bottom: 10px;
+}
+#portfolio ul{
+	font-size: 16px;
+	margin-left: 20px;
+}
+#portfolio ul a{
+	color: #333333;
+}
