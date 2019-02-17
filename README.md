@@ -14,7 +14,7 @@
 
 <section>[table要素]</section>
 <p>・border-spacing:0; 隣り合ったセルのボーダーとボーダーの間隔を指定するプロパティ。</p>
-<p>border-collapse:collapse; 隣り合ったセルのボーダー線を一線で表示するプロパティ。</p>
+<p>・border-collapse:collapse; 隣り合ったセルのボーダー線を一線で表示するプロパティ。</p>
 
 <section>[擬似要素]</section>
 <p>・:after; 要素の後
