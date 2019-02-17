@@ -1,5 +1,5 @@
-Snappersで覚えたこと
-https://user-images.githubusercontent.com/43316180/52915084-1454ae80-3313-11e9-97bc-eb31204564c8.png
+Snappers => https://user-images.githubusercontent.com/43316180/52915084-1454ae80-3313-11e9-97bc-eb31204564c8.png
+覚えたこと
 [高さ・幅]
 ・width:960px webサイトの横幅の基準の一つ　小さい画面に合わせる考え方は、webサイトをデザインする上で重要。
 
